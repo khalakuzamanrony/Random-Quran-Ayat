@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+
+
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Container for App Content */
+.container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* App Title */
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Styling for Displayed Ayat and Tafsir */
+.ayat-display {
+    margin: 20px 0;
+}
+
+/* Arabic Ayat Styling */
+.arabic {
+    font-size: 3rem;
+    color: #333;
+    direction: rtl;  /* Ensures proper right-to-left text direction */
+    margin-bottom: 15px;
+    font-family: 'Lateef', serif;
+    direction: rtl;
+}
+
+/* Tafsir (Bangla and English) Styling */
+.tafsir {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Surah Info Styling */
+.surah-info {
+    font-size: 1rem;
+    color: #777;
+    font-style: italic;
+}
+
+/* Button Styling */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
