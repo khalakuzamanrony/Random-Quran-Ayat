@@ -30,7 +30,7 @@ async function generateAyat() {
         document.getElementById('arabicAyat').textContent = arabicAyat;
         document.getElementById('banglaTafsir').textContent = banglaTafsir;
         //document.getElementById('englishTafsir').textContent = englishTafsir;
-        document.getElementById('surahInfo').textContent = `${surahName}${(randomSurah)}: ${randomAyat}`;
+        document.getElementById('surahInfo').textContent = `${surahName} (${randomSurah}) : ${randomAyat}`;
 
         // document.getElementById('t1').textContent = randomSurah;
         // document.getElementById('t2').textContent = randomAyat;
