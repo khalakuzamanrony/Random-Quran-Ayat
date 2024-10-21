@@ -77,3 +77,13 @@ h1 {
 .button:hover {
     background-color: #45a049;
 }
+/* Card container */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Creates the shadow effect */
+    margin: 20px auto;
+    max-width: 600px; /* Control the width of the card */
+    text-align: center; /* Center-align the text inside the card */
+}
